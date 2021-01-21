@@ -11,7 +11,7 @@ function IconPoints({ ...props }) {
     const lgScreen = useMediaQuery(theme => theme.breakpoints.up(992));
 
     return (
-        <Grid container className={classes.pointContainer} direction={mdScreen||lgScreen?"column":"row"} alignItems="center" justify="flex-start">
+        <Grid container className={classes.pointContainer} direction={mdScreen||lgScreen?"column":"row"} alignItems="center" justify="flex-start"  wrap="nowrap">
             <Grid item>
                 <div className={classes.iconContainer}><SvgIcon component={icon} fontSize="inherit"/></div>
             </Grid>

@@ -18,7 +18,11 @@ const sectionType2Style = theme => ({
         height: "auto",
     },
     topText: {
-        padding: "80px 0 30px",
+        padding: "30px",
+        margin: "60px 0 30px",
+        backgroundColor: "rgba(0,0,0,.6)",
+        backdropFilter: "blur(10px)",
+        borderRadius: "10px",
     },
     bottomLists: {
         padding: "30px 0"
@@ -40,6 +44,12 @@ const sectionType2Style = theme => ({
     },
     topRow: {
         height: "70%",
+    },
+    topText: {
+        padding: "30px",
+        backgroundColor: "rgba(0,0,0,.6)",
+        backdropFilter: "blur(10px)",
+        borderRadius: "10px",
     },
     bottomRow: {
         height: "30%",

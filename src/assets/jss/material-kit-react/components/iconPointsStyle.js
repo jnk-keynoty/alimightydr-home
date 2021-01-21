@@ -21,14 +21,15 @@ const iconPointsStyle = theme => ({
             width: "100%",
             '& h4': {
                 fontSize: "16px",
+                textAlign: "left"
             }
         },
         iconContainer : {
-            padding: "15px",
-            width: "100px",
-            height: "100px",
+            padding: "10px",
+            width: "80px",
+            height: "80px",
             marginRight: "10px",
-            fontSize: "70px",
+            fontSize: "60px",
         },    
     },
     [theme.breakpoints.up(768)]: {

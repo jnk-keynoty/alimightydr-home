@@ -27,11 +27,11 @@ function SectionType2({ ...props }) {
                 className={classes.fullHeight}
                 style={data.bgimage?{background: `url(${data.bgimage}) center / cover no-repeat`}:{}}
             >
-                <GridItem className={classes.topRow}>
+                <GridItem className={classes.topRow} xs={12}>
                     <div className={classes.fullHeight}>
                         <div className={`${classes.container} ${classes.fullHeight}`}>
                             <Grid container alignItems="center" className={classes.fullHeight}>
-                                <Grid item className={classes.topText}>
+                                <Grid item className={classes.topText} xs={12} sm={8} md={6} lg={4}>
                                     <Typography variant="h4" ><b>{data.preTitle}</b></Typography>
                                     <Typography variant="h3" gutterBottom><b>{data.title}</b></Typography>
                                     <Typography>{data.content}</Typography>

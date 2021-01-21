@@ -39,7 +39,7 @@ const theme = createMuiTheme({
     }
   }
   theme.typography.h3 = {
-    fontSize: '18px',
+    fontSize: '24px',
     fontWeight: "lighter",
     lineHeight: "2em",
     [theme.breakpoints.up(768)]: {
