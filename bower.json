@@ -1,17 +1,13 @@
 {
-  "name": "material-kit-react",
-  "homepage": "https://github.com/creativetimofficial/material-kit-react",
+  "name": "Almighty Dr",
+  "homepage": "http://www.almightydr.com",
   "authors": [
-    "creative-tim"
+    "Keynoty System"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "Almighty Dr Homepage",
   "main": "dist/index.js",
   "keywords": [
-    "material",
-    "design",
-    "material-ui",
-    "google",
-    "twitter"
+    "AlmightyDr",
   ],
   "license": "Creative TIM License",
   "ignore": [

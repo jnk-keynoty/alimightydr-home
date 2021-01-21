@@ -50,7 +50,7 @@ const iconPointsStyle = theme => ({
             width: "140px",
             margin: "0 20px",
             '& h4': {
-                fontSize: "20px",
+                fontSize: "18px",
             }
         },
         iconContainer : {

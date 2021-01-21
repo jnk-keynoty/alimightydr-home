@@ -3,7 +3,6 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
     typography: {
-      // fontFamily: 'Spoqa Han Sans, Helvetica, Arial, sans-serif',
       body1: {
         fontSize: 16,
       },

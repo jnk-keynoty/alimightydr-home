@@ -74,7 +74,7 @@ const iconPoints2Style = theme => ({
             maxWidth: "190px",
             margin: "15px auto",
             '& h4': {
-                fontSize: "20px",
+                fontSize: "18px",
             }
         },
         iconContainer : {

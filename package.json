@@ -1,7 +1,7 @@
 {
-  "name": "material-kit-react",
-  "version": "1.9.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "name": "Almighty Dr",
+  "version": "1.0.0",
+  "description": "Almighty Dr Homepage",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
