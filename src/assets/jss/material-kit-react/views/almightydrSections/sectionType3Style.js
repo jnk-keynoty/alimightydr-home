@@ -5,6 +5,7 @@ const sectionType3Style = {
   root: {
       height: "100%",
       textAlign: "center",
+
   },
   fullHeight: {
       height: "100%",
@@ -25,6 +26,7 @@ const sectionType3Style = {
       color: props => props.bottomTextColor,
       background: props => props.bottomBgColor,
       paddingTop: "20px",
+      paddingBottom: '80px'
   },
 };
 

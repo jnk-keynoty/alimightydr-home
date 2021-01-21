@@ -13,7 +13,7 @@ function SectionType1(props) {
               className={classes.root}
               style={bgimage?{background: `url(${bgimage}) center / cover no-repeat`}:{}}
             >
-              <GridContainer className={classes.container} >
+              <GridContainer className={`${classes.container} ${classes.containerPadding}`} >
                 <GridItem align="center">
                   { children }
 

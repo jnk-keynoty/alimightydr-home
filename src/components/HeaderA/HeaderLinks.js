@@ -14,6 +14,11 @@ import headerLinksStyle from "assets/jss/material-kit-react/components/headerLin
 
 function HeaderLinks({ ...props }) {
   const { classes } = props;
+
+  const action = () => {
+    const indexOfLastpage = document.querySelectorAll(".section").length
+    window.fullpage_api.silentMoveTo(indexOfLastpage)
+  }
   return (
     <List className={`${classes.list} head-link-color`}>
       <ListItem className={classes.listItem}>
@@ -27,7 +32,7 @@ function HeaderLinks({ ...props }) {
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button id="toLastpage" color="transparent" className={classes.navLink}>
+        <Button id="toLastpage" color="transparent" className={classes.navLink} onClick={()=> action()}>
           문의하기
         </Button>
       </ListItem>

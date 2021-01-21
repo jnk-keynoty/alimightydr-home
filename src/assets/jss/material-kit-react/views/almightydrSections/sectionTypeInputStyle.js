@@ -1,6 +1,6 @@
 import { container } from "assets/jss/material-kit-react.js";
 
-const sectionTypeInputStyle = {
+const sectionTypeInputStyle = theme => ({
     container,
     root: {
         height: "100%",
@@ -40,8 +40,17 @@ const sectionTypeInputStyle = {
     },
     checkbox: {
         color: "rgba(0, 0, 0, 0.87)",
+    },
+    [theme.breakpoints.down(768)]: {
+        topRow: {
+            height: "auto",
+            paddingTop: "50px"
+        },
+        bottomRow: {
+            height: "auto"
+        }    
     }
-  };
+  });
   
   export default sectionTypeInputStyle;
   

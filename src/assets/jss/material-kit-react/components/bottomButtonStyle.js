@@ -6,6 +6,11 @@ const bottomButtonStyle = theme => ({
         right: 0,
         textAlign: "center",
       },
+      [theme.breakpoints.down(768)]: {
+        root: {
+          bottom: "20px"
+        }
+      }
 
 })
 

@@ -8,6 +8,9 @@ const sectionType1Style = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  containerPadding: {
+    paddingBottom: '80px',
   }
 };
 

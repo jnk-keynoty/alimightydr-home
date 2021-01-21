@@ -23,11 +23,6 @@ import AlmightyInquire from "./Sections/AlmightyInquire"
 
 class AlmightydrPage extends React.Component {
   componentDidMount() {
-    const buttonToLast = document.querySelector("#toLastpage")
-    const indexOfLastpage = document.querySelectorAll(".section").length
-    buttonToLast.onclick = () => {
-      window.fullpage_api.silentMoveTo(indexOfLastpage)
-    }
   }
 
   render() {

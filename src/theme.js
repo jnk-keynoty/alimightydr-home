@@ -28,6 +28,9 @@ const theme = createMuiTheme({
   theme.typography.h1 = {
     fontSize: '32px',
     [theme.breakpoints.up(768)]: {
+      fontSize: '56px',
+    },
+    [theme.breakpoints.up(992)]: {
       fontSize: '80px',
     }
   }

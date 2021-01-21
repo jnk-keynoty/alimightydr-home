@@ -36,3 +36,8 @@ body.light-page .head-link-color > li > * > span,
 body.light-page .head-link-color > li > a {
   color: rgba(0, 0, 0, 0.87);
 }
+
+.fp-tableCell {
+  overflow: hidden;
+  min-height: 100vh;
+}

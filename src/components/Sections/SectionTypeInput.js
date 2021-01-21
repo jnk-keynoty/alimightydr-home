@@ -76,7 +76,7 @@ function SectionTypeInput(props) {
          },
       });
         return (
-            <div className={classes.root}>
+            <div className={classes.root} id="contact">
               <GridContainer className={classes.fullHeight}>
                 <GridItem className={classes.topRow} align="flex-end">
                     <div className={`${classes.container} ${classes.fullHeight} ${classes.topRowInner} `}>
