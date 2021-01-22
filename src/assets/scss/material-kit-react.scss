@@ -36,10 +36,20 @@ body:not(.light-page) #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background-color: #ffffff;
 }
-body.light-page .head-link-color > li > * > span,
+body .head-link-color > li > button,
+body .head-link-color > li > a {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+body.light-page .head-link-color {
+  background-color: transparent;
+  backdrop-filter: none;
+}
+body.light-page .head-link-color > li > button,
 body.light-page .head-link-color > li > a,
 body.light-page .menu-button {
   color: rgba(0, 0, 0, 0.87);
+  text-shadow: none;
 }
 @media screen and (max-width: 768px) {
   .fp-section:not(:last-child) {
