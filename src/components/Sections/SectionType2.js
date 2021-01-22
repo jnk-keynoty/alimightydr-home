@@ -31,7 +31,7 @@ function SectionType2({ ...props }) {
                     <div className={classes.fullHeight}>
                         <div className={`${classes.container} ${classes.fullHeight}`}>
                             <Grid container alignItems="center" className={classes.fullHeight}>
-                                <Grid item className={classes.topText} xs={12} sm={8} md={6} lg={4}>
+                                <Grid item className={classes.topText} xs={12} sm={8} md={6} lg="auto">
                                     <Typography variant="h4" ><b>{data.preTitle}</b></Typography>
                                     <Typography variant="h3" gutterBottom><b>{data.title}</b></Typography>
                                     <Typography>{data.content}</Typography>

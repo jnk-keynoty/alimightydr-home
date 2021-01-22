@@ -27,11 +27,13 @@ import { ReactComponent as TalkIcon } from '../../assets/ico/ico-talk.svg';
 import { ReactComponent as Up01Icon } from '../../assets/ico/ico-up01.svg';
 import { ReactComponent as Up02Icon } from '../../assets/ico/ico-up02.svg';
 import { ReactComponent as WriteIcon } from '../../assets/ico/ico-write.svg';
+import { ReactComponent as AlfredoIcon } from '../../assets/ico/ico-alfredo.svg';
+import { ReactComponent as AlfredoColorIcon } from '../../assets/ico/ico-alfredo-color.svg';
 
 export { 
     BillIcon, CallIcon, CardIcon, ClickIcon, Data01Icon, Data02Icon, Data03Icon, DbIcon, DefendIcon, DragIcon, GoalIcon, 
     HeartIcon, HistoryIcon, IdIcon, MailIcon, NeditIcon, NstopIcon, Report01Icon, Report02Icon, Report03Icon, Report04Icon, StateIcon,
-    StorageIcon, SyncIcon, TalkIcon, Up01Icon, Up02Icon, WriteIcon
+    StorageIcon, SyncIcon, TalkIcon, Up01Icon, Up02Icon, WriteIcon, AlfredoIcon, AlfredoColorIcon
 }
 export default function Icons() {
     return (
@@ -52,7 +54,7 @@ export default function Icons() {
                     <Report04Icon/><StateIcon/><StorageIcon/><SyncIcon/><TalkIcon/>
                 </div>
                 <div>
-                    <Up01Icon/><Up02Icon/><WriteIcon/>
+                    <Up01Icon/><Up02Icon/><WriteIcon/><AlfredoIcon/><AlfredoColorIcon/>
                 </div>
                 
         </div>

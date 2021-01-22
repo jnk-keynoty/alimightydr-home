@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Emphasized from '../../../components/Titles/Emphasized';
 import Underline from '../../../components/Titles/Underline';
 import Keyword from '../../../components/Titles/Keyword';
+import { Hidden } from '@material-ui/core';
 
 function ManagementSection(props) {
     const {fullpageApi} = props;
@@ -11,8 +12,8 @@ function ManagementSection(props) {
         <SectionType3 
         topNode={
           <Typography variant="h3">
-            <Keyword>마케팅</Keyword>을 통한 <Underline>병원 유입 경로 분석</Underline>은 물론 <br/>
-            <Underline>상담, 예약, 내원, 결제</Underline> 그리고 <Keyword>수술 후 관리까지</Keyword>
+            <Keyword>마케팅</Keyword>을 통한 <Hidden smUp><br/></Hidden><Underline>병원 유입 경로 분석</Underline>은 물론 <br/>
+            <Underline>상담, 예약, 내원, 결제</Underline> <Hidden smUp><br/></Hidden>그리고 <Hidden smUp><br/></Hidden><Keyword>수술 후 관리까지</Keyword>
           </Typography>
         } 
         bottomNode={

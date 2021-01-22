@@ -2,6 +2,7 @@ import React from 'react'
 import SectionType3 from '../../../components/Sections/SectionType3';
 import Typography from '@material-ui/core/Typography';
 import Keyword from '../../../components/Titles/Keyword';
+import { Hidden } from '@material-ui/core';
 
 function AnalysisSection(props) {
     const {fullpageApi} = props;
@@ -10,13 +11,13 @@ function AnalysisSection(props) {
       topNode={
         <Typography variant="h3">
           한 명의 고객을 기준으로 <br/>
-          <b>병원 인지</b>부터 상담, 내원, 결제 그리고 <b>수술</b>까지.
+          <b>병원 인지</b>부터 상담, 내원, 결제 <Hidden smUp><br/></Hidden> 그리고 <b>수술</b>까지.
         </Typography>
       } 
       bottomNode={
         <Typography variant="h3">
             모든 프로세스를 시스템이<br/>
-            <Keyword>자동으로 정리하고 분석합니다.</Keyword>
+            <Keyword>자동으로 정리하고 <Hidden smUp><br/></Hidden>분석합니다.</Keyword>
         </Typography>
       }
       topBgColor="linear-gradient(#64359A, #7C51AE);"

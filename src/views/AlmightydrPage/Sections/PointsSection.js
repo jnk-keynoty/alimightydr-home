@@ -1,12 +1,13 @@
 import React from 'react';
 import SectionType2 from '../../../components/Sections/SectionType2';
+import { Hidden } from '@material-ui/core';
 
 import { 
     BillIcon, CallIcon, CardIcon, ClickIcon,
     Data02Icon, Data03Icon, DbIcon, DefendIcon, DragIcon,
     HeartIcon, HistoryIcon, MailIcon, 
     NeditIcon, Report01Icon, Report02Icon, Report03Icon, 
-    StateIcon, SyncIcon,
+    StateIcon, SyncIcon, AlfredoIcon
   } from '../../../components/Icons/Icons'
   
 const pointsData = [
@@ -20,10 +21,10 @@ const pointsData = [
       ],
       preTitle: "MRM STEP 1.",
       title: "유입 및 DB 관리",
-      content: <>광고로 유입된 고객 DB를<br/>
+      content: <>광고로 유입된 고객 DB를<Hidden mdDown><br/></Hidden>
         따로 입력하거나 관리할 필요가 없어요!<br/><br/>
-        올닥MRM은 전화와 홈페이지로 유입된<br/>
-        고객의 모든 DB와 경로/키워드 등을 자동으로<br/>
+        올닥MRM은 전화와 홈페이지로 유입된<Hidden mdDown><br/></Hidden>
+        고객의 모든 DB와 경로/키워드 등을 자동으로<Hidden mdDown><br/></Hidden>
         시스템에 저장합니다.
       </>
     },
@@ -36,11 +37,11 @@ const pointsData = [
         {title: <>전문 콜센터 운용*</>, icon: CallIcon},
       ],
       preTitle: "MRM STEP 2.",
-      title: "상담 및 콜",
-      content: <>광전화 상담을 위해 유입된 고객 DB를<br/>
+      title: <>상담 및 콜</>,
+      content: <>전화 상담을 위해 유입된 고객 DB를 <Hidden mdDown><br/></Hidden>
         엑셀로 한번 더 가공하거나 정리하고 계신가요?<br/><br/>
-        올닥MRM은 유입된 고객 DB를 편리하게 열람하고<br/>
-        언제, 누구와 무슨 상담을 했는지 모든 상담 히스토리를<br/>
+        올닥MRM은 유입된 고객 DB를 편리하게 열람하고 <Hidden mdDown><br/></Hidden>
+        언제, 누구와 무슨 상담을 했는지 모든 상담 히스토리를 <Hidden mdDown><br/></Hidden>
         통합 저장합니다.
       </>
     },
@@ -55,12 +56,12 @@ const pointsData = [
         {title: <>상담/간호 고객 DB 분리</>, icon: DbIcon},
       ],
       preTitle: "MRM STEP 3.",
-      title: "예약 관리",
-      content: <>아직도 내원 예약을 위해<br/>
-      고객 DB를 CRM에 한번 더 입력하거나<br/>
+      title: <>예약 관리</>,
+      content: <>아직도 내원 예약을 위해 <Hidden mdDown><br/></Hidden>
+      고객 DB를 CRM에 한번 더 입력하거나 <Hidden mdDown><br/></Hidden>
       예약 확인을 위해 여러 메뉴를 이동하고 계신가요?<br/><br/>
-      올닥MRM은 유입 단계부터 생성된 고객 DB로<br/>
-      손쉽게 내원 예약을 잡고 드래그앤드랍 방식으로<br/>
+      올닥MRM은 유입 단계부터 생성된 고객 DB로 <Hidden mdDown><br/></Hidden>
+      손쉽게 내원 예약을 잡고 드래그앤드랍 방식으로 <Hidden mdDown><br/></Hidden>
       편리하게 예약을 변경할 수 있죠.
       </>
     },
@@ -73,11 +74,11 @@ const pointsData = [
         {title: <>한눈에 들어오는 매출 리포트</>, icon: Report03Icon},
       ],
       preTitle: "MRM STEP 4.",
-      title: "결제 및 매출",
-      content: <>지난 달 병원의 매출과 부가세, 미수금, 환불금 등<br/>
+      title: <>결제 및 매출</>,
+      content: <>지난 달 병원의 매출과 부가세, 미수금, 환불금 등 <Hidden mdDown><br/></Hidden>
       모든 결제/매출 자료를 한번에 확인할 수 있으신가요?<br/><br/>
-      올닥MRM은 카드 단말기와 결제 시스템을 연동하여<br/>
-      병원의 모든 청구 및 결제, 미수금과 환불금까지<br/>
+      올닥MRM은 카드 단말기와 결제 시스템을 연동하여 <Hidden mdDown><br/></Hidden>
+      병원의 모든 청구 및 결제, 미수금과 환불금까지 <Hidden mdDown><br/></Hidden>
       순매출을 한번에 확인할 수 있죠.
       </>
     },
@@ -85,16 +86,16 @@ const pointsData = [
       bgimage: require("assets/img/landing-bg5.jpg"),
       bgcolor: "#64359a",
       iconPoints: [
-        {title: <>의료비서 올프레도 연동*</>, icon: CardIcon,},
+        {title: <>의료비서 올프레도 연동*</>, icon: AlfredoIcon,},
         {title: <>모든 고객 히스토리 기록</>, icon: HistoryIcon},
         {title: <>수술 후 관리 콘텐츠 제공</>, icon: HeartIcon},
       ],
       preTitle: "MRM STEP 5.",
-      title: "수술 후 고객 관리",
-      content: <>각 고객의 DB를 기준으로<br/>
+      title: <>수술 후 고객 관리</>,
+      content: <>각 고객의 DB를 기준으로 <Hidden mdDown><br/></Hidden>
       모든 프로세스가 기록/관리되는 올닥MRM은<br/><br/>
-      의료비서 서비스인 올프레도와 연동되어<br/>
-      수술 후 주의사항 전달이나 팔로업 예약 등<br/>
+      의료비서 서비스인 올프레도와 연동되어 <Hidden mdDown><br/></Hidden>
+      수술 후 주의사항 전달이나 팔로업 예약 등 <Hidden mdDown><br/></Hidden>
       기수술 고객의 관리에도 유리하죠.
       </>
     },
@@ -107,11 +108,11 @@ const pointsData = [
         {title: <>상담 성공률 리포트</>, icon: Report02Icon},
       ],
       preTitle: "MRM STEP 6.",
-      title: "마케팅 및 통계 분석",
-      content: <>특정 매체에 사용한 광고비가<br/>
+      title: <>마케팅 및 통계 분석</>,
+      content: <>특정 매체에 사용한 광고비가 <Hidden mdDown><br/></Hidden>
       얼마의 매출을 발생시키고 있을까요?<br/><br/>
-      올닥MRM은 DB 전환률, 내원 성공률, 결제 성공률은<br/>
-      물론 콜센터의 통화시간, 링타임까지 분석하여<br/>
+      올닥MRM은 DB 전환률, 내원 성공률, 결제 성공률은 <Hidden mdDown><br/></Hidden>
+      물론 콜센터의 통화시간, 링타임까지 분석하여 <Hidden mdDown><br/></Hidden>
       매출 감소 요인을 찾고 경영 효율성을 극대화시킵니다.
       </>
     },

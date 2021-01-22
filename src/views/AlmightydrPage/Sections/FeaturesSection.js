@@ -9,7 +9,7 @@ import {
     DragIcon,
     GoalIcon, HeartIcon, IdIcon, MailIcon, 
     NstopIcon, Report01Icon, Report02Icon, Report03Icon, 
-    Report04Icon, StorageIcon, SyncIcon,
+    Report04Icon, StorageIcon, SyncIcon, AlfredoColorIcon
   } from '../../../components/Icons/Icons'
 import featureSectionStyle from '../../../assets/jss/material-kit-react/views/almightydrSections/featureSectionStyle';
 
@@ -22,7 +22,7 @@ const iconPoints = [
     {title: "예약 안내 문자(또는 알림톡) 자동발송", icon: MailIcon},
     {title: "카드 단말기 결제 정보 연동", icon: CardIcon},
     {title: "자동 계산 결제/청구 시스템", icon: BillIcon},
-    {title: "의료비서 올프레도 연동", icon: IdIcon},
+    {title: "의료비서 올프레도 연동", icon: AlfredoColorIcon},
     {title: "수술 후 관리 콘텐츠 제공", icon: HeartIcon},
     {title: "유입대비 DB 생성률 리포트 제공", icon: Report04Icon},
     {title: "콜 센터 효율성 리포트 제공", icon: Report01Icon},

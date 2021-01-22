@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="24" height="24" transform="translate(8859 3531)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-8859 -3531)" clip-path="url(#clip-path)">
+    <g id="Group_152" data-name="Group 152" transform="translate(8862.182 3533.979)">
+      <path id="Path_135" data-name="Path 135" d="M206.657,73.46V65.6a1.068,1.068,0,0,0-.576-.948l-7.75-4.023a1.067,1.067,0,0,0-.984,0l-7.75,4.023a1.068,1.068,0,0,0-.576.948v7.859a1.068,1.068,0,0,0,.576.948l7.75,4.024a1.067,1.067,0,0,0,.984,0l7.75-4.024A1.067,1.067,0,0,0,206.657,73.46Z" transform="translate(-189.022 -60.509)" fill="#000000"/>
+      <path id="Path_136" data-name="Path 136" d="M199.06,125.439l7.75-4.024a1.066,1.066,0,0,0,.414-.383l-5.931-3.079h-5.45l-5.931,3.079a1.069,1.069,0,0,0,.414.383l7.75,4.024A1.067,1.067,0,0,0,199.06,125.439Z" transform="translate(-189.75 -107.518)" fill="#6738a1"/>
+      <g id="Group_103" data-name="Group 103" transform="translate(3.367 3.362)">
+        <path id="Path_137" data-name="Path 137" d="M218.46,81.845l-2.725,4.245h0l-2.725,4.244-2.724-4.243h0l-2.725-4.245,5.45-2.829h0Z" transform="translate(-207.56 -79.016)" fill="#fff"/>
+        <g id="Group_102" data-name="Group 102" transform="translate(3.139 4.458)">
+          <path id="Path_138" data-name="Path 138" d="M224.836,103.554v2.4l2.313-1.2Z" transform="translate(-224.836 -103.554)" fill="#000000"/>
+          <path id="Path_139" data-name="Path 139" d="M239.889,105.956v-2.4l-2.313,1.2Z" transform="translate(-235.262 -103.554)" fill="#000000"/>
+        </g>
+        <path id="Path_140" data-name="Path 140" d="M207.559,100.248l2.724-1.414-2.725-1.415v-2.83h0l2.725,4.245h0l2.724,4.243Z" transform="translate(-207.558 -91.76)" fill="#b683f3"/>
+        <path id="Path_141" data-name="Path 141" d="M243.01,97.419l-2.725,1.415,2.725,1.414-5.45,2.83h0l2.725-4.244h0l2.725-4.245Z" transform="translate(-232.11 -91.76)" fill="#b683f3"/>
+      </g>
+    </g>
+  </g>
+</svg>

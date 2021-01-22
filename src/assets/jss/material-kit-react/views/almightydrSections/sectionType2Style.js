@@ -62,7 +62,7 @@ const sectionType2Style = theme => ({
 },
 [theme.breakpoints.up(992)]: {
     topRow: {
-        height: "calc(100vh - 300px)",
+        height: "calc(100% - 300px)",
     },
     bottomRow: {
         height: "300px",

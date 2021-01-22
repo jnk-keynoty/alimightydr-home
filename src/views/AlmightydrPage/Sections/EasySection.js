@@ -3,6 +3,7 @@ import SectionType3 from '../../../components/Sections/SectionType3';
 import Typography from '@material-ui/core/Typography';
 import Underline from '../../../components/Titles/Underline';
 import Keyword from '../../../components/Titles/Keyword';
+import { Hidden } from '@material-ui/core';
 
 function EasySection(props) {
     const {fullpageApi} = props;
@@ -10,14 +11,14 @@ function EasySection(props) {
         <SectionType3 
         topNode={
           <Typography variant="h3">
-            <Keyword>전지 전능</Keyword> 한 올닥MRM 기능 때문에<br/>
-            도입이나 사용이 어렵다고 생각하실 수 있죠.
+            <Keyword>전지 전능</Keyword> 한 <Hidden smUp><br/></Hidden>올닥MRM 기능 때문에<br/>
+            도입이나 사용이 어렵다고 <Hidden smUp><br/></Hidden>생각하실 수 있죠.
           </Typography>
         } 
         bottomNode={
             <Typography variant="h3">
-                <Underline>하지만, 걱정할 필요가 없습니다!</Underline><br/>
-                MRM 시스템이 많은 부분을 <Keyword>스스로 처리하니까요.</Keyword>
+                <Underline borderColor="#333">하지만, 걱정할 필요가 없습니다!</Underline><br/>
+                MRM 시스템이 많은 부분을 <Hidden smUp><br/></Hidden><Keyword>스스로 처리하니까요.</Keyword>
             </Typography>
         }
         bottomBgColor="#FFFFFF"

@@ -12,7 +12,7 @@ import Hidden from "@material-ui/core/Hidden"
 import Drawer from "@material-ui/core/Drawer"
 // @material-ui/icons
 import { ReactComponent as NewMenu } from "../../assets/ico/btn-menu.svg"
-
+import { SvgIcon } from '@material-ui/core';
 import Brand from "../../components/Brand/Brand"
 
 // core components
@@ -101,8 +101,9 @@ class Header extends React.Component {
               color="inherit"
               aria-label="open drawer"
               onClick={this.handleDrawerToggle}
+              className="menu-button"
             >
-              <NewMenu />
+              <SvgIcon component={NewMenu} fontSize="inherit" />
             </IconButton>
           </Hidden>
         </Toolbar>

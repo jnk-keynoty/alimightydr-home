@@ -3,6 +3,8 @@ import SectionType3 from '../../../components/Sections/SectionType3';
 import Typography from '@material-ui/core/Typography';
 import Emphasized from '../../../components/Titles/Emphasized';
 import Keyword from '../../../components/Titles/Keyword';
+import { Hidden } from '@material-ui/core';
+import Underline from 'components/Titles/Underline';
 
 function BestSection(props) {
     const {fullpageApi} = props;
@@ -10,8 +12,8 @@ function BestSection(props) {
         <SectionType3 
         topNode={
           <Typography variant="h3">
-            <Keyword>올마이티닥터</Keyword>를 도입할 예정이신가요?<br/>
-              콜 시도 횟수, 통화 시간, 링타임 전환률 등
+            <Keyword>올마이티닥터</Keyword>를 <Hidden smUp><br/></Hidden>도입할 예정이신가요?<br/>
+              <Underline borderColor="#333">콜 시도 횟수, 통화 시간, <Hidden smUp><br/></Hidden>링타임 전환률 등</Underline>
           </Typography>
         } 
         bottomNode={
