@@ -17,7 +17,6 @@ import AnalysisSection from "./Sections/AnalysisSection"
 import EasySection from "./Sections/EasySection"
 import PointsSection from "./Sections/PointsSection"
 import FeaturesSection from "./Sections/FeaturesSection"
-import CaseSection from "./Sections/CaseSection"
 import EffectiveSection from "./Sections/EffectiveSection"
 import AlmightyInquire from "./Sections/AlmightyInquire"
 
@@ -45,7 +44,6 @@ class AlmightydrPage extends React.Component {
           scrollingSpeed={1000} /* Options here */
           navigation
           sectionsColor={[
-            "#64359a",
             "#64359a",
             "#64359a",
             "#64359a",
@@ -84,9 +82,6 @@ class AlmightydrPage extends React.Component {
                 </div>
                 <div className="section">
                   <EasySection fullpageApi={fullpageApi} />
-                </div>
-                <div className="section">
-                  <CaseSection fullpageApi={fullpageApi} />
                 </div>
                 <div className="section">
                   <FeaturesSection />
